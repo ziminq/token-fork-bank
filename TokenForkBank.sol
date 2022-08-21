@@ -25,7 +25,7 @@ interface IERC20Minimal {
         returns (bool);
 }
 
-contract TokenBank {
+contract TokenForkBank {
     address owner;
     // address -> token -> number
     mapping(address => mapping(address => uint256)) info;
